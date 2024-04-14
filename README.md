@@ -1,15 +1,10 @@
 # Travelling Salesman Problem: Parallel Implementations & Analysis
 
-## Course Project for High Performance Computing]
+## Course Project for High Performance Computing
 
 ***
 
-## Overview
-
-The Travelling Salesman Problem (often called TSP) is a classic algorithmic problem in the field of computer science and  operations  research.  It  is  an  NP-Hard  problem  focused  on optimization.  TSP  has  several  applications  even  in  its  purest formulation,  such  as  planning,  logistics,  and  the  manufacture of  microchips;  and  can  be  slightly  modified  to  appear  as  a sub-problem  in  many  areas,  such  as  DNA  sequencing.  In  this project,  a  study  on  parallelization  of  the Brute  Force  approach (under  several  paradigms)  of  the  Travelling  Salesman  Problem is  presented.  Detailed  timing  studies  for  the  serial  and  various parallel  implementations  of  the  Travelling  Salesman  Problem have  also  been  illustrated.
-
 ### Implementations for Different Paradigms of Parallelization
-
 
 | **Paradigm** | **Tool/Library** | **Implementation** |
 | :---: | :---: | :---: |
@@ -18,7 +13,6 @@ The Travelling Salesman Problem (often called TSP) is a classic algorithmic prob
 | Message Passing | MPI | `tsp_mpi.cpp` |
 | Hybrid | MPI & OpenMP | `tsp_hybrid.cpp` |
 
-## Usage
 
 Following are the list of commands to compile \& run the codes for the various implementations mentioned above:
 
@@ -52,5 +46,3 @@ $ mpirun -np <N_PES> ./tsp_hybrid <N> <N_TH>       # Run the code for N cities u
 
 
 ***
-
-<p align='center'>Created with :heart: by <a href="https://github.com/rishi2123">Rishi Dev P V</a>, <a href="https://github.com/Shriram2109">Shriram V</a></p>
